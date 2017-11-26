@@ -1,4 +1,3 @@
-
 /* VARIABLE */
 /* JavaScript typed values */
 /* there is no types of variables -> typeof is give us a type of the value currently holding in variable */
@@ -69,4 +68,36 @@ obj.c;              // -> true
 /* dot notation always appeals to value of variable in object */
 /* bracket notation first refers to value of the global variable (if it's define)
 and if it isn't define - appeals to value of variable in object */
-/* example -> 2_DotVsBracket.js */
+/* example -> 2_dot-vs-bracket.js */
+
+
+/* ARRAY */
+/* An array is an object. properties/keys (od any type) are hold in numerically indexed positions */
+/* first element of arrays use 0 index! */
+
+var array = [
+    'Hello',
+    5,
+    true
+];
+
+array[0];       // -> "Hello"
+array[1];       // -> 5
+array[2];       // -> true
+array.length;   // -> 3    (number of values)
+
+
+
+/* FUNCTION */
+/* Function is an object. */
+
+function foo() {
+    return 5;
+}
+
+foo.f = 'f';
+
+typeof foo;     // -> "function"
+typeof foo();   // -> "number"      (because function return number)
+typeof foo.f;   // -> "string"      (because foo.f = 'f' and it's a string)
+
