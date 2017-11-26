@@ -22,10 +22,10 @@ console.log(q);     // -> True
 var z = a.aFalse;   // ! invokes a value of variable declared inside of the object
 console.log(z);     // -> False
 
-/* if you want to get the object values, you can use Object.values(object_name)
-https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Object/values
- */
+/* if you want to get the object values, you can use Object.values(object_name) */
+Object.values(a);   // -> ["True", "False"] (array of values)
+/* https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Object/values */
 
 /* it's also good to know Object.entries() - it returns an array whose elements are arrays corresponding to the enumerable property */
-Object.entries(a);  // -> [["aTrue", "True"], ["aFalse", "False"]] (array od arrays) :)
+Object.entries(a);  // -> [["aTrue", "True"], ["aFalse", "False"]] (array of arrays) :)
 /* https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Object/entries */
