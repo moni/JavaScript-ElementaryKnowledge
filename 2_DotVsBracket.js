@@ -16,9 +16,9 @@ console.log(y);     // -> False
 /* let the black magic happen! */
 
 
-var q = a[aFalse];  // ! invokes a variable declared outside of the object
+var q = a[aFalse];  // ! invokes a value of variable declared outside of the object
 console.log(q);     // -> True
 
-var z = a.aFalse;   // ! invokes a variable declared inside of the object
+var z = a.aFalse;   // ! invokes a value of variable declared inside of the object
 console.log(z);     // -> False
 
