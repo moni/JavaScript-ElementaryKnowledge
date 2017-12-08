@@ -10,3 +10,4 @@ function removeCharSlice(str){
     return str.slice(1, -1);
 };
 console.log(removeCharSlice('Monika'));
+
