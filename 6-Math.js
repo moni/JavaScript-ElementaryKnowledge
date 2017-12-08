@@ -16,10 +16,13 @@ console.log(firstNumber % secondNumber);    // -> 4
 /*
 Math.pow(base, exponent/power/index)
 Exponents / Powers / Indices
+or you can use **
  */
-Math.pow(2,2);      // -> 4
-Math.pow(2,3);      // -> 8
-Math.pow(2,4);      // -> 16
+Math.pow(2,2);          // -> 4
+Math.pow(2,3);          // -> 8
+
+Math.pow(2,4);          // -> 16
+console.log(2 ** 4);    // -> 16
 
 /*
 ++x or x++
@@ -45,7 +48,7 @@ console.log(numberDecrementPostfix);     // -> 3 (was 3)
 
 
 /*
-Assignments
+Assignment Operators
 Assignemnt                  =
 Addition assignment	        +=
 Subtraction assignment	    -=
